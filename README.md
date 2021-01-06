@@ -1,5 +1,5 @@
 # Ultimate HS Battlegrounds Fight Skipper
- [Skip fights in Battlegrounds with a command]
+ [Skip fights in Battlegrounds with a command
 
  
  Please check the path to [Hearthstone.exe] and insert in `settings.txt`
@@ -13,4 +13,4 @@
  
  enjoy and have fun :)
  
- [Veros]
+ [Veros
