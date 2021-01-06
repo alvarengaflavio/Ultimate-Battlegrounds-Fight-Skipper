@@ -8,7 +8,8 @@
  
  
  You can modify the rule name by changing the value of `rule_n`, his default value is:
- `\n rule_n = Hearthstone_Fight_Skipper`
+ 
+ `rule_n = Hearthstone_Fight_Skipper`
  
  
  enjoy and have fun :)
