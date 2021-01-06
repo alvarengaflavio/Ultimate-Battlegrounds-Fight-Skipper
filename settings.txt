@@ -1,0 +1,2 @@
+path = D:\Games\Hearthstone\Hearthstone.exe
+rule_n = Hearthstone_Fight_Skipper
