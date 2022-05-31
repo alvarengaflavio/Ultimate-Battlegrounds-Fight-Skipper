@@ -8,8 +8,8 @@ from time import sleep
 class UHSBFS:
 
     def __init__(self):
-        self.PATH_TO_FILE = None
-        self.RULE_NAME = None
+        self.PATH_TO_FILE = 'C:\\Program Files (x86)\\Hearthstone\\Hearthstone.exe'
+        self.RULE_NAME = 'Hearthstone_Fast_DC'
         self._get_settings()
 
     def __str__(self):
@@ -80,7 +80,7 @@ class UHSBFS:
     def _get_settings(self):
         with open('./settings.txt', 'r') as f:
             settings = f.readlines()
-            path2file, rule_name = settings[0].split('=') or '', settings[1].split('=') or 'Hearthstone_Fast_DC'
+            path2file, rule_name = settings[0].split('=') or self.PATH_TO_FILE, settings[1].split('=') or self.RULE_NAME
             path2file, rule_name = path2file[1].strip().removesuffix('\n'), rule_name[1].strip().removesuffix('\n')
 
         self.PATH_TO_FILE = path2file
